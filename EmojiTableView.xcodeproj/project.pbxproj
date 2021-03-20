@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1EBE7B2590A92500720CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE7A2590A92500720CB7 /* AppDelegate.swift */; };
+		AE1EBE7D2590A92500720CB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE7C2590A92500720CB7 /* SceneDelegate.swift */; };
+		AE1EBE822590A92500720CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1EBE802590A92500720CB7 /* Main.storyboard */; };
+		AE1EBE842590A92A00720CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1EBE832590A92A00720CB7 /* Assets.xcassets */; };
+		AE1EBE872590A92A00720CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1EBE852590A92A00720CB7 /* LaunchScreen.storyboard */; };
+		AE1EBE912590AC0100720CB7 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE902590AC0100720CB7 /* EmojiTableViewController.swift */; };
+		AE1EBE942590D0BB00720CB7 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE932590D0BB00720CB7 /* EmojiTableViewCell.swift */; };
+		AE1EBE972590D67600720CB7 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE962590D67600720CB7 /* EmojiModel.swift */; };
+		AE1EBE9A2590FB1700720CB7 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EBE992590FB1700720CB7 /* NewEmojiTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE1EBE772590A92500720CB7 /* EmojiTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1EBE7A2590A92500720CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1EBE7C2590A92500720CB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE1EBE812590A92500720CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1EBE832590A92A00720CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1EBE862590A92A00720CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1EBE882590A92A00720CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1EBE902590AC0100720CB7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		AE1EBE932590D0BB00720CB7 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		AE1EBE962590D67600720CB7 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		AE1EBE992590FB1700720CB7 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1EBE742590A92500720CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1EBE6E2590A92500720CB7 = {
+			isa = PBXGroup;
+			children = (
+				AE1EBE792590A92500720CB7 /* EmojiTableView */,
+				AE1EBE782590A92500720CB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1EBE782590A92500720CB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1EBE772590A92500720CB7 /* EmojiTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1EBE792590A92500720CB7 /* EmojiTableView */ = {
+			isa = PBXGroup;
+			children = (
+				AE1EBE7A2590A92500720CB7 /* AppDelegate.swift */,
+				AE1EBE7C2590A92500720CB7 /* SceneDelegate.swift */,
+				AE1EBE802590A92500720CB7 /* Main.storyboard */,
+				AE1EBE992590FB1700720CB7 /* NewEmojiTableViewController.swift */,
+				AE1EBE932590D0BB00720CB7 /* EmojiTableViewCell.swift */,
+				AE1EBE902590AC0100720CB7 /* EmojiTableViewController.swift */,
+				AE1EBE962590D67600720CB7 /* EmojiModel.swift */,
+				AE1EBE832590A92A00720CB7 /* Assets.xcassets */,
+				AE1EBE852590A92A00720CB7 /* LaunchScreen.storyboard */,
+				AE1EBE882590A92A00720CB7 /* Info.plist */,
+			);
+			path = EmojiTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1EBE762590A92500720CB7 /* EmojiTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1EBE8B2590A92A00720CB7 /* Build configuration list for PBXNativeTarget "EmojiTableView" */;
+			buildPhases = (
+				AE1EBE732590A92500720CB7 /* Sources */,
+				AE1EBE742590A92500720CB7 /* Frameworks */,
+				AE1EBE752590A92500720CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiTableView;
+			productName = EmojiTableView;
+			productReference = AE1EBE772590A92500720CB7 /* EmojiTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1EBE6F2590A92500720CB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AE1EBE762590A92500720CB7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = AE1EBE722590A92500720CB7 /* Build configuration list for PBXProject "EmojiTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1EBE6E2590A92500720CB7;
+			productRefGroup = AE1EBE782590A92500720CB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1EBE762590A92500720CB7 /* EmojiTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1EBE752590A92500720CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1EBE872590A92A00720CB7 /* LaunchScreen.storyboard in Resources */,
+				AE1EBE842590A92A00720CB7 /* Assets.xcassets in Resources */,
+				AE1EBE822590A92500720CB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1EBE732590A92500720CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1EBE7B2590A92500720CB7 /* AppDelegate.swift in Sources */,
+				AE1EBE9A2590FB1700720CB7 /* NewEmojiTableViewController.swift in Sources */,
+				AE1EBE912590AC0100720CB7 /* EmojiTableViewController.swift in Sources */,
+				AE1EBE942590D0BB00720CB7 /* EmojiTableViewCell.swift in Sources */,
+				AE1EBE972590D67600720CB7 /* EmojiModel.swift in Sources */,
+				AE1EBE7D2590A92500720CB7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE1EBE802590A92500720CB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1EBE812590A92500720CB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1EBE852590A92A00720CB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1EBE862590A92A00720CB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1EBE892590A92A00720CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1EBE8A2590A92A00720CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1EBE8C2590A92A00720CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YG62PAG8L9;
+				INFOPLIST_FILE = EmojiTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdeleZavr.EmojiTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1EBE8D2590A92A00720CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YG62PAG8L9;
+				INFOPLIST_FILE = EmojiTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdeleZavr.EmojiTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1EBE722590A92500720CB7 /* Build configuration list for PBXProject "EmojiTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1EBE892590A92A00720CB7 /* Debug */,
+				AE1EBE8A2590A92A00720CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1EBE8B2590A92A00720CB7 /* Build configuration list for PBXNativeTarget "EmojiTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1EBE8C2590A92A00720CB7 /* Debug */,
+				AE1EBE8D2590A92A00720CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1EBE6F2590A92500720CB7 /* Project object */;
+}
